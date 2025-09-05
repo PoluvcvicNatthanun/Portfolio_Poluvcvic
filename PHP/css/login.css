@@ -1,0 +1,16 @@
+body {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    background-color: hsl(207, 48%, 17%);
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    bottom: 50%;
+}
+
+.box {
+    background-color: rgb(rgb(0, 153, 255),);
+}

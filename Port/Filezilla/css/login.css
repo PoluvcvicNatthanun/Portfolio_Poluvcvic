@@ -1,0 +1,30 @@
+body {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    background-color: hsl(207, 48%, 17%);
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    bottom: 50%;
+}
+
+.box {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    background: hsl(#1E5A88);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ffffff;
+    border: 2px solid #ffffff;
+    color: aliceblue;
+}
+
+.input {
+    border-radius: 25px;
+    text-align: left;
+    box-shadow: #ffffff;
+
+}
