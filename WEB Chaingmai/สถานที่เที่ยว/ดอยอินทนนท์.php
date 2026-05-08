@@ -111,7 +111,7 @@ if (file_exists($commentsFile)) {
     </div>
     <div class="footer">
         <strong><p>ช่องทางการติดต่อ</p></strong>
-        <p>Facebook : <a href="https://www.facebook.com/kanompepo" target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://www.facebook.com/kanompepo</a></p>
+        <p>Facebook : <a href="https://www.facebook.com/poluvucvic/ target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://www.facebook.com/kanompepo</a></p>
         <p>Instagram : <a href="https://www.instagram.com/poluvcvic/" target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://www.instagram.com/poluvcvic/</a></p>
     </div>
 </body>
