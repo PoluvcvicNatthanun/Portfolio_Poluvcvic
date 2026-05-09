@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(188, 188, 188);
+    background-color: #0f172a;
     margin-top: 5cm;
     font-family: "IBM Plex Sans Thai", sans-serif;
     display: flex;
@@ -28,6 +28,7 @@ html {
 .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
+    text-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
     color: #fff;
     text-align: center;
 }
