@@ -73,6 +73,8 @@ html {
     display: inline-block;
     padding:10px 20px;
     color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
     overflow: hidden;
     margin-top: 40px;
     letter-spacing: 4px;
@@ -84,7 +86,7 @@ html {
     display: inline-block;
     border-radius: 5px;
     padding:10px 20px;
-    background:rgba(70, 70, 70, 0.5);
+    background: rgba(70, 70, 70, 0.5);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
     color: #ffff;
     font-size: 10px;
@@ -96,7 +98,6 @@ html {
 }
 
 .login-box button:hover {
-    display: inline-block;
     position: relative;
     background: rgba(70, 70, 70, 0.5);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
