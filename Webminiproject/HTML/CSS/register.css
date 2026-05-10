@@ -11,7 +11,7 @@ html {
     height: 100%;
 }
 
-.login-box {
+.register-box {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -25,7 +25,7 @@ html {
     border-radius: 10px;
 }
 
-.login-box h2 {
+.register-box h2 {
     margin: 0 0 30px;
     padding: 0;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
@@ -34,11 +34,11 @@ html {
 }
 
 
-.login-box .user-box {
+.register-box .user-box {
     position: relative;
 }
 
-.login-box .user-box input {
+.register-box .user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -49,7 +49,7 @@ html {
     outline: none;
     background: transparent;
 }
-.login-box .user-box label {
+.register-box .user-box label {
     position: absolute;
     top: 0;
     left: 0;
@@ -60,15 +60,15 @@ html {
     transition: .5s;
 }
 
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
+.register .user-box input:focus ~ label,
+.register-box .user-box input:valid ~ label {
     top: -20px;
     left: 0px;
     color: #000000;
     font-size: 12px;
 }
 
-.login-box form a {
+.register-box form a {
     position: relative;
     display: inline-block;
     padding:10px 20px;
@@ -80,7 +80,7 @@ html {
     letter-spacing: 4px;
 }
 
-.login-box button {
+.register-box button {
     position: relative;
     text-align: center;
     display: inline-block;
