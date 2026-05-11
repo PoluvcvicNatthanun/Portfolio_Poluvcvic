@@ -216,7 +216,9 @@ if (!isset($_SESSION['username'])) {
             </div>
         </div>
     </div>
-
+    <footer>
+        
+    </footer>
 
 <script>
     

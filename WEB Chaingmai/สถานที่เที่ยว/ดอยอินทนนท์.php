@@ -111,6 +111,7 @@ if (file_exists($commentsFile)) {
     </div>
     <footer>
         <strong>ช่องทางการติดต่อ </strong><br>
+        <p>Gmail : nut647864@gmail.com</p>
         <a href="https://www.facebook.com/poluvucvic" target="_blank" >https://www.facebook.com/poluvucvic</a>
         <a href="https://www.instagram.com/poluvcvic/" target="_blank">https://www.instagram.com/poluvcvic/</a>
     </footer>
