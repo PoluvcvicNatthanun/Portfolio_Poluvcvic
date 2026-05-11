@@ -246,7 +246,7 @@ if (!isset($_SESSION['username'])) {
         <strong>@2025 สถานที่ท่องเที่ยวเชียงใหม่</strong><br>
         <strong>: ช่องทางการติดต่อ :</strong><br>
         <strong>gmail : nut647864@gmail.com</strong><br>
-        <strong>Facebook : <a href="https://www.facebook.com/poluvucvic" target="_blank">poluvucvic</a></strong><br>
+        <strong>Facebook : <a href="https://www.facebook.com/poluvucvic" target="_blank" style="text-decoration: none; color: #007bff">poluvucvic</a></strong><br>
         <strong>Instagram : poluvcvic</strong>
     </footer>
     
