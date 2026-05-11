@@ -135,6 +135,7 @@ if (!isset($_SESSION['username'])) {
         li {
             list-style-position: inside; /* ดันจุดเข้ากรอบ */
         }
+        footer { background-color: #68b9eb; text-align: center; padding: 20px }
     </style>
 </head>
 <body>
@@ -241,11 +242,13 @@ if (!isset($_SESSION['username'])) {
             </div>
         </div>
     </div>
-    <div class="footer">
-    <strong><p>ช่องทางการติดต่อ</p></strong>
-    <p>Facebook : <a href="https://www.facebook.com/poluvucvic/" target="_blank" rel="noopener" style="text-decoration:none; color: #007bff">https://www.facebook.com/kanompepo</a></p>
-    <p>Instagram : <a href="https://www.instagram.com/poluvcvic/" target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://www.instagram.com/poluvcvic/</a></p>
-    </div>
+    <footer>
+        <strong>@2025 สถานที่ท่องเที่ยวเชียงใหม่</strong><br>
+        <strong>: ช่องทางการติดต่อ :</strong><br>
+        <strong>gmail : nut647864@gmail.com</strong><br>
+        <strong>Facebook : <a href="https://www.facebook.com/poluvucvic" target="_blank">poluvucvic</a></strong><br>
+        <strong>Instagram : poluvcvic</strong>
+    </footer>
     
 
 <script>

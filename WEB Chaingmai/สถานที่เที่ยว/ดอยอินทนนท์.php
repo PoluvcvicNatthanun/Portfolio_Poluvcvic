@@ -110,10 +110,11 @@ if (file_exists($commentsFile)) {
         </div>
     </div>
     <footer>
-        <strong>ช่องทางการติดต่อ </strong><br>
-        <p>Gmail : nut647864@gmail.com</p>
-        <a href="https://www.facebook.com/poluvucvic" target="_blank" >https://www.facebook.com/poluvucvic</a>
-        <a href="https://www.instagram.com/poluvcvic/" target="_blank">https://www.instagram.com/poluvcvic/</a>
+        <strong>@2025 สถานที่ท่องเที่ยวเชียงใหม่</strong><br>
+        <strong>: ช่องทางการติดต่อ :</strong><br>
+        <strong>gmail : nut647864@gmail.com</strong><br>
+        <strong>Facebook : poluvucvic</strong><br>
+        <strong>Instagram : poluvcvic</strong>
     </footer>
 </body>
 </html>
