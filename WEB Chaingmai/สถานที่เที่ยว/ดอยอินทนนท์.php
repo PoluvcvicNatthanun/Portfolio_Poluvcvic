@@ -51,7 +51,7 @@ if (file_exists($commentsFile)) {
         .comment strong { color: #2b4c7e; }
         .description button { margin-top: 10px; padding: 10px 15px; background-color: #68b9eb; color: white; border: none;  border-radius: 6px; cursor: pointer; }
         .description button:hover { background-color: #43a0d6; }
-        .footer {text-align: center;}
+        footer { background-color:#68b9eb; text-align: center; padding: 20px;}
     </style>
 </head>
 <body>
@@ -109,10 +109,10 @@ if (file_exists($commentsFile)) {
             <?php endif; ?>
         </div>
     </div>
-    <div class="footer">
-        <strong><p>ช่องทางการติดต่อ</p></strong>
-        <p>Facebook : <a href="https://www.facebook.com/poluvucvic/ target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://www.facebook.com/kanompepo</a></p>
-        <p>Instagram : <a href="https://www.instagram.com/poluvcvic/" target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://www.instagram.com/poluvcvic/</a></p>
-    </div>
+    <footer>
+        <strong>ช่องทางการติดต่อ </strong><br>
+        <a href="https://www.facebook.com/poluvucvic" target="_blank" >https://www.facebook.com/poluvucvic</a>
+        
+    </footer>
 </body>
 </html>
