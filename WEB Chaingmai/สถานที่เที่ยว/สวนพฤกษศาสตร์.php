@@ -49,6 +49,14 @@ if (file_exists($commentsFile)) {
         .comment-box button:hover { background-color: #43a0d6; }
         .comment { padding: 10px; border-bottom: 1px solid #ddd; }
         .comment strong { color: #2b4c7e; }
+        footer{ background-color: #68b9eb; text-align: center; padding: 20px; display: flex; 
+        justify-content: center; align-items: flex-start;}
+        footer .center{ text-align: center;}
+        .footer-title{ width: 100%; text-align: center; margin-bottom: 10px;}
+        .footer-center{ text-align: center; }
+        .contact-item{ margin-top: 15px; display: flex; gap: 10px;}
+        .contact-item a{ text-decoration: none; color: black;}
+        .contact-item a:hover{color: white;}
     </style>
 </head>
 <body>
@@ -103,5 +111,29 @@ if (file_exists($commentsFile)) {
             <?php endif; ?>
         </div>
     </div>
+    <footer>
+    <div class="footer-center">
+        <div class="footer-title">
+            <strong>@2025 สถานที่ท่องเที่ยวเชียงใหม่</strong>
+        </div>
+        <strong>: ช่องทางการติดต่อ :</strong>
+        <div class="contact-item">
+            <strong>E-mail : </strong>
+            <span> nut647864@gmail.com </span>
+        </div>
+        <div class="contact-item">
+            <strong>Facebook : </strong>
+            <a href="https://www.facebook.com/poluvucvic" target="_blank">
+                 poluvucvic
+            </a>
+        </div>
+        <div class="contact-item">
+            <strong>Instagram : </strong>
+            <a href="https://www.instagram.com/poluvucvic" target="_blank">
+                 poluvucvic
+            </a>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>
