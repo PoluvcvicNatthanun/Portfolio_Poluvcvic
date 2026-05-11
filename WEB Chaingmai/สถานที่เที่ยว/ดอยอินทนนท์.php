@@ -51,9 +51,15 @@ if (file_exists($commentsFile)) {
         .comment strong { color: #2b4c7e; }
         .description button { margin-top: 10px; padding: 10px 15px; background-color: #68b9eb; color: white; border: none;  border-radius: 6px; cursor: pointer; }
         .description button:hover { background-color: #43a0d6; }
-        footer { background-color: #68b9eb; text-align: center; padding: 20px;}
-        footer .contact { margin-top: 10px; text-align: left; }
-        
+        footer{ background-color: #68b9eb; text-align: center; padding: 20px; display: flex; 
+        justify-content: center; align-items: flex-start;}
+        footer .center{ text-align: center;}
+        .footer-title{ width: 100%; text-align: center; margin-bottom: 10px;}
+        .footer-center{ text-align: center; }
+        .contact-item{ margin-top: 15px; display: flex; gap: 10px;}
+        .contact-item a{ text-decoration: none; color: black;}
+        .contact-item a:hover{color: white;}
+
     </style>
 </head>
 <body>
@@ -112,14 +118,28 @@ if (file_exists($commentsFile)) {
         </div>
     </div>
     <footer>
-        <strong>@2025 สถานที่ท่องเที่ยวเชียงใหม่</strong>
-        <div class="contact">
-            <strong>: ช่องทางการติดต่อ :</strong><br>
-            <strong>E-mail : </strong><p1>nut647864@gmail.com</p1><br>
-            <strong>Facebook : </strong><p1><a href="https://www.facebook.com/poluvucvic" target="_blank" style="text-decoration: none; color: #000000">poluvucvic</a></p1><br>
-            <strong>Instagram : </strong><p1><a href="https://www.instagram.com/poluvucvic" target="_blank" style="text-decoration: none; color: #000000">poluvucvic</a></p1>
+    <div class="footer-center">
+        <div class="footer-title">
+            <strong>@2025 สถานที่ท่องเที่ยวเชียงใหม่</strong>
         </div>
-        
+        <strong>: ช่องทางการติดต่อ :</strong>
+        <div class="contact-item">
+            <strong>E-mail : </strong>
+            <span> nut647864@gmail.com </span>
+        </div>
+        <div class="contact-item">
+            <strong>Facebook : </strong>
+            <a href="https://www.facebook.com/poluvucvic" target="_blank">
+                 poluvucvic
+            </a>
+        </div>
+        <div class="contact-item">
+            <strong>Instagram : </strong>
+            <a href="https://www.instagram.com/poluvucvic" target="_blank">
+                 poluvucvic
+            </a>
+        </div>
+    </div>
     </footer>
 </body>
 </html>
