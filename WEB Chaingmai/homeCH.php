@@ -234,7 +234,7 @@ if (!isset($_SESSION['username'])) {
             <div class="product">
                 <img src="https://f.ptcdn.info/769/040/000/o3r7yudw87zITbiNZC3-o.jpg" alt="">
                 <h4>ปางช้างแม่สา</h4>
-                <p>ดินแดนช้างไทยที่มีจำนวนมาก มีควาญช้างคอยดูแลอย่างใกล้ชิดเลี้ยงด้วยความรักความผูกพัน  กลุ่มเพื่อนๆบอกว่าที่นี่เป็นสถานที่ที่ดีที่สุด 
+                <p style="text-align: left;">ดินแดนช้างไทยที่มีจำนวนมาก มีควาญช้างคอยดูแลอย่างใกล้ชิดเลี้ยงด้วยความรักความผูกพัน  กลุ่มเพื่อนๆบอกว่าที่นี่เป็นสถานที่ที่ดีที่สุด 
                     ได้รับความนิยมโดยเฉพาะชาวต่างชาติ ด้านในปางช้างแม่สา มีการแสดงและกิจกรรมต่าง ๆ</p>
                 <li style="text-align: left;">ที่อยู่ : ถนนท่าแพ , 119/9 1096, ตำบลแม่แรม , อำเภอแม่ริม เชียงใหม่ 50180</li>
                 <li  style="text-align: left;">พิกัด : ถนนท่าแพ , 119/9 1096, ตำบลแม่แรม , อำเภอแม่ริม เชียงใหม่ 50180</li>
@@ -248,14 +248,12 @@ if (!isset($_SESSION['username'])) {
         <strong>@2025 สถานที่ท่องเที่ยวเชียงใหม่</strong>
         <div class="contact">
             <strong>: ช่องทางการติดต่อ :</strong><br>
-            <strong>Gmail : </strong><p1>nut647864@gmail.com</p1><br>
+            <strong>E-mail : </strong><p1>nut647864@gmail.com</p1><br>
             <strong>Facebook : </strong><p1><a href="https://www.facebook.com/poluvucvic" target="_blank" style="text-decoration: none; color: #000000">poluvucvic</a></p1><br>
             <strong>Instagram : </strong><p1><a href="https://www.instagram.com/poluvucvic" target="_blank" style="text-decoration: none; color: #000000">poluvucvic</a></p1>
         </div>
         
     </footer>
-    
-
 <script>
     
 </script>
