@@ -78,19 +78,15 @@ if (file_exists($commentsFile)) {
         <h1 class="title">Hotel Aono</h1>
         
         <div class="images">
-            <img src="https://image-tc.galaxy.tf/wijpeg-sxrfid5inslt46adwg0pwpho/intanon_standard.jpg?crop=112%2C0%2C1777%2C1333">
-            <img src="https://s.isanook.com/tr/0/ud/282/1412729/4-3_1.jpg?ip/crop/w670h402/q80/jpg">
-            <img src="https://www.khaosod.co.th/wpapp/uploads/2023/11/IMG_1572.jpeg">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/264935884.jpg?k=03a067dd8c67c4658990465fc5ea4aaa62c623290d6c93a944d53db0197ae227&o=">
+            <img src="https://images.trvl-media.com/lodging/48000000/47040000/47036000/47035950/157cb42d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4cUkCPJ0uAZGS9eDix-C8lMYGofNlHbhMLg&s">
         </div>
 
         <div class="description">
             <p>
                 <strong>Hotel Aono</strong><br> เป็นโรงแรมเล็กๆ สไตล์มินิมอล ตั้งอยู่ใจกลางเมืองเชียงใหม่ เดินทางสะดวก จะเที่ยวที่ไหนก็ง่าย การตกแต่งของที่นี่คือเรียบง่ายแต่น่ารักสุดๆ ใช้โทนสีขาวคลีนๆ 
                     ตัดกับขอบประตูหน้าต่างลายไม้ ให้ฟีลญี่ปุ่นเบาๆ มินิมอลกำลังดี เฟอร์นิเจอร์ก็เป็นโทนขาวกับไม้ ดูอบอุ่น สบายตา
-            </p>
-            <p>
-                นอกจากธรรมชาติที่งดงามแล้ว ดอยอินทนนท์ยังมีวัฒนธรรมท้องถิ่นของชาวม้งและกะเหรี่ยง
-                นักท่องเที่ยวสามารถเพลิดเพลินกับอาหารพื้นบ้าน ชมไร่สตรอว์เบอร์รี และเลือกซื้อสินค้าพื้นเมืองได้ตลอดทางขึ้นดอย
             </p>
             <button style="font-family: 'Kanit', sans-serif; " color="white" type="submit"><a href="https://maps.app.goo.gl/2LXdHCoeAquYgn5u9" target="_blank" rel="noopener" style="text-decoration: none; color:white">Map</a></button>
         </div>
