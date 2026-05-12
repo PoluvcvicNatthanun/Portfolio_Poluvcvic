@@ -140,7 +140,7 @@ if (!isset($_SESSION['username'])) {
         footer .center{ text-align: center;}
         .footer-title{ width: 100%; text-align: center; margin-bottom: 10px;}
         .footer-center{ text-align: center; }
-        .contact-item{ margin-top: 15px; display: flex; gap: 10px;}
+        .contact-item{ margin-top: 15px; display: flex; gap: 5px;}
         .contact-item a{ text-decoration: none; color: black;}
         .contact-item a:hover{color: white;}
         
