@@ -160,18 +160,21 @@ if (!isset($_SESSION['username'])) {
         <div class="menu"><a href="loginCH.php" style="color:black;">ล็อคเอ้าท์</a></div>
     </div>
     
-    <h2 style="margin-left: 25px;">หน้าแรก</h2>
+    <h2 style="margin-left: 25px;">หน้าแรก สถานที่พัก</h2>
     <div class="content">
         <div class="product-section">
             <div class="product">
-                <img src="https://www.ananda.co.th/blog/thegenc/wp-content/uploads/2023/11/shutterstock_2091837973-1-825x550.jpg" alt="">
-                <h4>ดอยอินทนนท์</h4>
-                <p style="text-align: left;"> ดอยอินทนนท์ ถือเป็นภูเขาที่สูงที่จะในประเทศไทย ด้วยความสูงจากระดับน้ำทะเล 2,565 เมตร จึงทำให้มีสภาพอากาศที่เย็นตลอดทั้งปี</p>
-                <li style="text-align: left;">ที่อยู่ : ตำบลบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่</li>
-                <li style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/GoqQTrsmwui7kqBE9" target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://maps.app.goo.gl/GoqQTrsmwui7kqBE9</a></li>
-                <li style="text-align: left;">เปิดให้เข้าชม :  05.00-18.00 น.</li>
-                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/DoiInthanonNationalPark" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/DoiInthanonNationalPark</a></li>
-                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='สถานที่เที่ยว/ดอยอินทนนท์.php'">ดูเพิ่มเติม</button>
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/264935884.jpg?k=03a067dd8c67c4658990465fc5ea4aaa62c623290d6c93a944d53db0197ae227&o=" alt="">
+                <h4>Hotel Aono</h4>
+                <p style="text-align: left;"> เป็นโรงแรมเล็กๆ สไตล์มินิมอล ตั้งอยู่ใจกลางเมืองเชียงใหม่ เดินทางสะดวก จะเที่ยวที่ไหนก็ง่าย การตกแต่งของที่นี่คือเรียบง่ายแต่น่ารักสุดๆ ใช้โทนสีขาวคลีนๆ 
+                    ตัดกับขอบประตูหน้าต่างลายไม้ ให้ฟีลญี่ปุ่นเบาๆ มินิมอลกำลังดี เฟอร์นิเจอร์ก็เป็นโทนขาวกับไม้ ดูอบอุ่น สบายตา</p>
+                <p style="text-align: left;">  ในห้องพักมีครบทั้งแอร์ เครื่องทำน้ำอุ่น และที่สำคัญคือ มีสระว่ายน้ำกลางแจ้ง ด้วย จะว่ายน้ำชิลๆ หรือนั่งเล่นริมสระก็ฟีลดีไปหมด
+                    ห้องพักก็กว้าง ทำเลก็ดี อยู่ไม่ไกลจาก เชียงใหม่ไนท์บาซาร์, สถานีรถไฟเชียงใหม่ และยังใกล้คาเฟ่เพียบ</p>
+                <li style="text-align: left;">ที่อยู่ : ตำบลช้างคลาน อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
+                <li style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/2LXdHCoeAquYgn5u9" target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://maps.app.goo.gl/2LXdHCoeAquYgn5u9</a></li>
+                <li style="text-align: left;">เปิดให้เข้าชม : -</li>
+                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/Aoyamateiaono " target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/Aoyamateiaono </a></li>
+                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='Hotelaono.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Chiang_Mai_-_East_gate_of_the_city_wall_-_0001.jpg" alt="">
