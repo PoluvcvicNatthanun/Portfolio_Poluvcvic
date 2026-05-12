@@ -28,7 +28,7 @@ if (file_exists($commentsFile)) {
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>ดอยอินทนนท์</title>
+    <title>Hotel Aono</title>
     <link rel="icon" type="image/jpg" href="/Filezilla/images/it.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <style>

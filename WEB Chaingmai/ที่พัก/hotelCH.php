@@ -172,20 +172,18 @@ if (!isset($_SESSION['username'])) {
                     ห้องพักก็กว้าง ทำเลก็ดี อยู่ไม่ไกลจาก เชียงใหม่ไนท์บาซาร์, สถานีรถไฟเชียงใหม่ และยังใกล้คาเฟ่เพียบ</p>
                 <li style="text-align: left;">ที่อยู่ : ตำบลช้างคลาน อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
                 <li style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/2LXdHCoeAquYgn5u9" target="_blank" rel="noopener" style="text-decoration: none; color: #007bff;">https://maps.app.goo.gl/2LXdHCoeAquYgn5u9</a></li>
-                <li style="text-align: left;">เปิดให้เข้าชม : -</li>
-                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/Aoyamateiaono " target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/Aoyamateiaono </a></li>
+                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/Aoyamateiaono " target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/Aoyamateiaono </a></li><br>
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='Hotelaono.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Chiang_Mai_-_East_gate_of_the_city_wall_-_0001.jpg" alt="">
-                <h4>ประตูท่าแพ</h4>
-                <p style="text-align: left;">ประตูท่าแพ เป็นประตูเมืองที่อยู่ทางด้านทิศตะวันออกของเมืองเชียงใหม่ชั้นใน ซึ่งก็คือพื้นที่สี่เหลี่ยมที่ล้อมรอบด้วยคูเมืองนั่นเอง บริเวณประตูท่าแพจะเห็นแนวกำแพงเมืองเก่าซึ่งสร้างด้วยอิฐ มีความสวยงาม และเป็นเอกลักษณ์ 
-                    บริเวณประตูท่าแพมีลานกว้างซึ่งใช้จัดงานเทศกาลต่างๆ และยังเป็นจุดเริ่มต้นของ ถนนคนเดินท่าแพ ซึ่งจัดขึ้นทุกๆ วันอาทิตย์อีกด้วย</p>
-                <li style="text-align: left;">ที่อยู่ : ตำบลบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่</li>
-                <li  style="text-align: left;">พิกัด :<a href="https://maps.app.goo.gl/wo8KinkKZyQTqsHz5" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/wo8KinkKZyQTqsHz5</a></li>
-                <li style="text-align: left;">เปิดให้เข้าชม : สามารถเที่ยวชมได้ตลอดทั้งวัน.</li>
-                <li style="text-align: left;">เว็บไซต์ : -</li>
-                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='สถานที่เที่ยว/ประตูท่าแพ.php'">ดูเพิ่มเติม</button>
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/551865398.jpg?k=79131d0f4bc888422a5db346ebdc1e25a6de2bd65c7f1828e88329dbab8be777&o=" alt="">
+                <h4>JORN Temporary House</h4>
+                <p style="text-align: left;">ถ้าอยากพักแบบ บ้านทั้งหลังกลางเมืองเชียงใหม่ ขอแนะนำ จร-JORN Temporary House บ้านพักสไตล์วินเทจที่รีโนเวตมาจากบ้านเก่า ใกล้มหาวิทยาลัยเชียงใหม่ เหมาะมากสำหรับคนที่มาพักเป็นกลุ่มหรือครอบครัว 
+                    เพราะบ้านหลังนี้มีทั้งหมด 3 ห้องนอน 3 ห้องน้ำ 2 ห้องนั่งเล่น และยังมีห้องครัวครบครัน โลเคชั่นดีมากๆ ใกล้ทั้งคาเฟ่ ร้านอาหาร และแหล่งท่องเที่ยวต่างๆ</p>
+                <li style="text-align: left;">ที่อยู่ : 99/54 หมู่ 1 ถนนห้วยแก้ว ตำบลช้างเผือก อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
+                <li  style="text-align: left;">พิกัด :<a href="https://maps.app.goo.gl/2vkxgwifKj2WUJby7" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/2vkxgwifKj2WUJby7</a></li>
+                <li style="text-align: left;">เว็บไซต์ : <a href="" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">-</a></li><br>
+                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='hoteljorn.php'">ดูเพิ่มเติม</button>
             </div>
         </div>
 
