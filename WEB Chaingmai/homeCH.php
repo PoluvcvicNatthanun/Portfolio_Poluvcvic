@@ -190,23 +190,23 @@ if (!isset($_SESSION['username'])) {
             <strong><p>5 อันดับสถานที่ท่องเที่ยวในเชียงใหม่</p></strong>
             1. <a onclick="window.location.href='สถานที่เที่ยว/วัดพระธาตุ.php'" style="text-decoration: none; color: #007bff;" target="_blank" >วัดพระธาตุดอยสุเทพ</a>
             <div class="img">
-                <a onclick="window.location.href='สถานที่เที่ยว/วัดพระธาตุ.php'" target="_blank"><img style="height: 200px; width: 350px; border-radius: 10px;"  src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Wat_Phra_That_Doi_Suthep_%28I%29.jpg"></a>
+                <a onclick="window.location.href='สถานที่เที่ยว/วัดพระธาตุ.php'" target="_blank"><img style="height: 200px; width: 400px; border-radius: 10px;"  src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Wat_Phra_That_Doi_Suthep_%28I%29.jpg"></a>
             </div> 
             2. <a onclick="window.location.href='สถานที่เที่ยว/ดอยอินทนนท์.php'"style="text-decoration: none; color: #007bff;" target="_blank">ดอยอินทนนท์</a>
             <div class="img">
-                <a onclick="window.location.href='สถานที่เที่ยว/ดอยอินทนนท์.php'" target="_blank"><img style="height: 200px; width: 350px; border-radius: 10px;"  src="https://image-tc.galaxy.tf/wijpeg-sxrfid5inslt46adwg0pwpho/intanon_standard.jpg?crop=112%2C0%2C1777%2C1333"></a>
+                <a onclick="window.location.href='สถานที่เที่ยว/ดอยอินทนนท์.php'" target="_blank"><img style="height: 200px; width: 400px; border-radius: 10px;"  src="https://image-tc.galaxy.tf/wijpeg-sxrfid5inslt46adwg0pwpho/intanon_standard.jpg?crop=112%2C0%2C1777%2C1333"></a>
             </div>
             3. <a onclick="window.location.href='สถานที่เที่ยว/ประตูท่าแพ.php'"style="text-decoration: none; color: #007bff;" target="_blank">เมืองเก่าเชียงใหม่ (คูเมือง)</a>
             <div class="img">
-                <a onclick="window.location.href='สถานที่เที่ยว/ประตูท่าแพ.php'"style="text-decoration: none; color: #007bff;" target="_blank"><img style="height: 200px; width: 350px; border-radius: 10px;"  src="https://www.panasm.com/wp-content/uploads/2017/09/shutterstock_555493696.jpg"></a>
+                <a onclick="window.location.href='สถานที่เที่ยว/ประตูท่าแพ.php'"style="text-decoration: none; color: #007bff;" target="_blank"><img style="height: 200px; width: 400px; border-radius: 10px;"  src="https://www.panasm.com/wp-content/uploads/2017/09/shutterstock_555493696.jpg"></a>
             </div>
             4. <a onclick="window.location.href='สถานที่เที่ยว/สวนพฤกษศาสตร์.php'"style="text-decoration: none; color: #007bff;" target="_blank">สวนพฤกษศาสตร์สมเด็จพระนางเจ้าสิริกิติ์</a>
             <div class="img">
-                <a onclick="window.location.href='สถานที่เที่ยว/สวนพฤกษศาสตร์.php'"style="text-decoration: none; color: #007bff;" target="_blank"><img style="height: 200px; width: 350px; border-radius: 10px;"  src="https://chillpainai.com/storage/scoop/cover/2016-06-01-14-29-49-02.jpg"></a>
+                <a onclick="window.location.href='สถานที่เที่ยว/สวนพฤกษศาสตร์.php'"style="text-decoration: none; color: #007bff;" target="_blank"><img style="height: 200px; width: 400px; border-radius: 10px;"  src="https://chillpainai.com/storage/scoop/cover/2016-06-01-14-29-49-02.jpg"></a>
             </div>
             5. <a onclick="window.location.href='สถานที่เที่ยว/ปางช้าง.php'"style="text-decoration: none; color: #007bff;" target="_blank">ปางช้างแม่สา</a>
             <div class="img">
-                <a onclick="window.location.href='สถานที่เที่ยว/ปางช้าง.php'"stylตe="text-decoration: none; color: #007bff;" target="_blank"><img style="height: 200px; width: 350px; border-radius: 10px;"  src="https://f.ptcdn.info/769/040/000/o3r7yudw87zITbiNZC3-o.jpg"></a>
+                <a onclick="window.location.href='สถานที่เที่ยว/ปางช้าง.php'"stylตe="text-decoration: none; color: #007bff;" target="_blank"><img style="height: 200px; width: 400px; border-radius: 10px;"  src="https://f.ptcdn.info/769/040/000/o3r7yudw87zITbiNZC3-o.jpg"></a>
             </div>
             
         </div>
