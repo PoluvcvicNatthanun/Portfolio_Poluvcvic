@@ -9,7 +9,7 @@ if (!isset($_SESSION['username'])) {
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>Chaing mai</title>
+    <title> Hotels in Chiang Mai </title>
     <link rel="icon " type="image/it.jpg" href="/Filezilla/images/it.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <style>
@@ -191,16 +191,16 @@ if (!isset($_SESSION['username'])) {
     <div class="content">
         <div class="product-section">
             <div class="product">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Wat_Phra_That_Doi_Suthep_%28I%29.jpg" alt="">
-                <h4>วัดพระธาตุดอยสุเทพ</h4>
-                <p style="text-align: left;">วัดพระธาตุดอยสุเทพ นั้นเป็นปูชนียสถานคู่เมืองเชียงใหม่มาตั้งแต่โบราณ ตั้งอยู่บนยอดดอยสุเทพ  
-                    นอกจากนี้ยังมี บันไดนาคเจ็ดเศียร ซึ่งทอดยาวขึ้นไป 300 ขั้น และ เจดีย์สีทองทรงเชียงแสน เป็นศิลปะล้านนาที่งดงาม 
-                    อีกทั้งที่นี่เป็นพระธาตุประจำคนเกิดปีมะแมตามคติความเชื่อล้านนาอีกด้วย</p>
-                <li style="text-align: left;">ที่อยู่ : 9 หมู่ที่ 9 อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
-                <li style="text-align: left;">พิกัด :<a href="https://maps.app.goo.gl/xVRzVnF8acZrA5RWA" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/xVRzVnF8acZrA5RWA</a></li>
-                <li style="text-align: left;">เปิดให้เข้าชม : 06.00-20.00 น.</li>
-                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/วัดพระธาตุดอยสุเทพ" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/วัดพระธาตุดอยสุเทพ</a></li>
-                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='สถานที่เที่ยว/วัดพระธาตุ.php'">ดูเพิ่มเติม</button>
+                <img src="https://static.wixstatic.com/media/a20849_c38c022179504523b4b16da2f24235c2~mv2.jpg/v1/fill/w_760,h_420,al_c/a20849_c38c022179504523b4b16da2f24235c2~mv2.jpg">
+                <h4>ALEXA Nimman Hostel</h4>
+                <p style="text-align: left;">ใครที่มองหา ที่พักเชียงใหม่ ทำเลดี ราคาน่ารักๆ ในตัวเมืองเชียงใหม่ ต้องลองมาพักที่ ALEXA Nimman Hostel 
+                    ที่นี่ตั้งอยู่ในย่านนิมมานฯ แหล่งท่องเที่ยวสุดฮิต เดินเที่ยวสะดวก ใกล้ทั้ง คาเฟ่ ร้านอาหาร 
+                     ในส่วนของที่พักจะตกแต่งสไตล์มินิมอล เรียบง่ายแต่ดูดี ห้องพักกว้าง นอนสบาย มีพื้นที่ใช้สอยให้ไม่รู้สึกอึดอัด 
+                     เหมาะทั้งกับคนที่มาพักคนเดียว มาคู่ หรือมาเที่ยวกับเพื่อน</p>
+                <li style="text-align: left;">ที่อยู่ : 2/8 นิมมานเหมินทร์ ตำบลสุเทพ อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
+                <li style="text-align: left;">พิกัด :<a href="https://maps.app.goo.gl/UUzmEcGqyExyuhVv6" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/UUzmEcGqyExyuhVv6</a></li>
+                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/alexanimmanhostel " target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/alexanimmanhostel </a></li><br>
+                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='alexanimman.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
                 <img src="https://chillpainai.com/storage/scoop/cover/2016-06-01-14-29-49-02.jpg" alt="">
