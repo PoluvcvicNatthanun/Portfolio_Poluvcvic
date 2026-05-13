@@ -152,7 +152,7 @@ if (!isset($_SESSION['username'])) {
         <h1>สถานที่ท่องเที่ยวเชียงใหม่ 🗺️🌈</h1>
         <div class="menu">
             <a href="homeCH.php">สถานที่เที่ยว</a>
-            <a href="ที่พัก/hotelCH.php">ที่พัก</a>
+            <a href="hotelCH.php">ที่พัก</a>
             <a href="contactCH.php">ติดต่อ</a> 
             <a href="aboutCH.php">เกี่ยวกับเรา</a>
         </div>
