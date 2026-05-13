@@ -215,15 +215,16 @@ if (!isset($_SESSION['username'])) {
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='pillows.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
-                <img src="https://f.ptcdn.info/769/040/000/o3r7yudw87zITbiNZC3-o.jpg" alt="">
-                <h4>ปางช้างแม่สา</h4>
-                <p style="text-align: left;">ดินแดนช้างไทยที่มีจำนวนมาก มีควาญช้างคอยดูแลอย่างใกล้ชิดเลี้ยงด้วยความรักความผูกพัน  กลุ่มเพื่อนๆบอกว่าที่นี่เป็นสถานที่ที่ดีที่สุด 
-                    ได้รับความนิยมโดยเฉพาะชาวต่างชาติ ด้านในปางช้างแม่สา มีการแสดงและกิจกรรมต่าง ๆ</p>
-                <li style="text-align: left;">ที่อยู่ : ถนนท่าแพ , 119/9 1096, ตำบลแม่แรม , อำเภอแม่ริม เชียงใหม่ 50180</li>
-                <li  style="text-align: left;">พิกัด : ถนนท่าแพ , 119/9 1096, ตำบลแม่แรม , อำเภอแม่ริม เชียงใหม่ 50180</li>
-                <li style="text-align: left;">เปิดให้เข้าชม : 09.00 – 15.30</li>
-                <li style="text-align: left;">เว็บไซต์ : -</li>
-                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='สถานที่เที่ยว/ปางช้าง.php'">ดูเพิ่มเติม</button>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a9/40/ba/20190228-081424-largejpg.jpg?w=500&h=400&s=1" alt="">
+                <h4>Hotel Noir</h4>
+                <p style="text-align: left;">ที่พักเชียงใหม่ ได้ฟีลเหมือนอยู่นิวยอร์ก ต้องลองมานอนที่ Hotel Noir ใน ซอยนิมมาน 5 
+                    ที่นี่เป็นที่พักสไตล์ตึกเก่าแบบนิวยอร์ก การตกแต่งเน้นอิฐแดงกับปูนเปลือย โชว์ผิววัสดุแบบดิบๆ แต่ลงตัว มีเสน่ห์สุดๆ
+                     มีพื้นที่สีเขียวให้ความร่มรื่นเยอะมาก แถมยังมีจักรยานให้ยืมปั่นฟรีๆ ปั่นเล่นรอบๆ เมืองได้เลย ถือเป็นที่พักที่ทำเลดีมากๆ เพราะอยู่ในนิมมานแบบใจกลางเมืองจริงๆ เดินออกมาปุ๊บก็เจอร้านเก๋ๆ เพียบ
+                </p>
+                <li style="text-align: left;">ที่อยู่ : 5/8 ถนนนิมมานเหมินทร์ จังหวัดเชียงใหม่</li>
+                <li  style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/SYCx3QVSwqWDGP8x7" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/SYCx3QVSwqWDGP8x7</a></li>
+                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/HotelnoirChiangmaiNimman" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/HotelnoirChiangmaiNimman</a></li>
+                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='hotelNOIR.php'">ดูเพิ่มเติม</button>
             </div>
         </div>
     </div>
