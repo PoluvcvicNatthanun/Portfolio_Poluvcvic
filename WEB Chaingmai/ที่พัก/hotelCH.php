@@ -198,22 +198,21 @@ if (!isset($_SESSION['username'])) {
                      ในส่วนของที่พักจะตกแต่งสไตล์มินิมอล เรียบง่ายแต่ดูดี ห้องพักกว้าง นอนสบาย มีพื้นที่ใช้สอยให้ไม่รู้สึกอึดอัด 
                      เหมาะทั้งกับคนที่มาพักคนเดียว มาคู่ หรือมาเที่ยวกับเพื่อน</p>
                 <li style="text-align: left;">ที่อยู่ : 2/8 นิมมานเหมินทร์ ตำบลสุเทพ อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
-                <li style="text-align: left;">พิกัด :<a href="https://maps.app.goo.gl/UUzmEcGqyExyuhVv6" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/UUzmEcGqyExyuhVv6</a></li>
+                <li style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/UUzmEcGqyExyuhVv6" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/UUzmEcGqyExyuhVv6</a></li>
                 <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/alexanimmanhostel " target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/alexanimmanhostel </a></li><br>
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='alexanimman.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
-                <img src="https://chillpainai.com/storage/scoop/cover/2016-06-01-14-29-49-02.jpg" alt="">
-                <h4>สวนพฤกษศาสตร์สมเด็จพระนางเจ้าสิริกิติ์</h4>
-                <p style="text-align: left;">สวนพฤกษศาสตร์สมเด็จพระนางเจ้าสิริกิติ์ สวนสวยๆ ที่ตั้งอยู่ใน ตำบลแม่แรม อำเภอแม่ริม จังหวัดเชียงใหม่ มีพื้นที่กว่า 3,500 ไร่ เป็นสถานที่ที่รวบรวมและอนุรักษ์พรรณไม้ต่างๆ เอาไว้ 
-                    โดยการปลูกให้สอดคล้องกับธรรมชาติมากที่สุด ซึ่งมีทั้งกลุ่มอาคารเรือนกระจกบนยอดเขา ที่มีความสวยงาม 
-                    รวมไปถึงมีความรู้อัดแน่นอยู่มากมาย ทำให้สวนนี้ เป็นอีกสถานที่ท่องเที่ยวพักผ่อน และสถานที่ศึกษาธรรมชาตินั่นเอง</p>
-                <li style="text-align: left;">ที่อยู่ : 100 หมู่ 9 ตำบลแม่แรม อำเภอแม่ริม จังหวัดเชียงใหม่</li>
-                <li  style="text-align: left;">พิกัด :<a href="https://goo.gl/maps/PpD4zzZnjNt6jXgE9   " target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://goo.gl/maps/PpD4zzZnjNt6jXgE9   </a></li>
-                <li style="text-align: left;">เปิดให้เข้าชม : 09.00-16.00 น.</li>
-                <li style="text-align: left;">เค่าเข้าชม : คนไทย ผู้ใหญ่ 40 บาท เด็ก 20 บาท , ต่างชาติ ผู้ใหญ่ 100 บาท เด็ก 50 บาท</li>
-                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/qsbgcm/" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/qsbgcm/</a></li>
-                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='สถานที่เที่ยว/สวนพฤกษศาสตร์.php'">ดูเพิ่มเติม</button>
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/167266862.jpg?k=d637f221014eea40487e500b1bf2d7c567cd393edeab00c27bf801494fbade74&o=" alt="">
+                <h4>Pillows Boutique Hotel</h4>
+                <p style="text-align: left;">ที่พักเชียงใหม่ ฟีลมินิมอล เรียบง่าย แต่มีความน่ารักอบอุ่น ต้องที่นี่เลย Pillows Boutique Hotel ค่ะ ที่พักสวย สะอาด ตัวโรงแรมตกแต่งสไตล์มินิมอล
+                    ห้องพักก็กว้างขวางสุดๆ มีทั้งเตียงเดี่ยวและเตียงคู่ให้เลือก ห้องสะอาด สบายตา ทำเลที่ตั้งก็ดีไม่แพ้กัน อยู่ในตัวเมืองเชียงใหม่ 
+                    เดินทางสะดวกมาก ใกล้ทั้งสนามบิน สถานีรถไฟเชียงใหม่ เชียงใหม่ไนท์บาซาร์ และ ตลาดวโรรส
+                </p>
+                <li style="text-align: left;">ที่อยู่ : ตำบลท่าศาลา อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
+                <li  style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/eVhYxSfaY3GoP9AS8" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/eVhYxSfaY3GoP9AS8  </a></li>
+                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/pillowsboutiquehotel " target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/pillowsboutiquehotel </a></li><br>
+                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='pillows.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
                 <img src="https://f.ptcdn.info/769/040/000/o3r7yudw87zITbiNZC3-o.jpg" alt="">
