@@ -215,15 +215,15 @@ if (!isset($_SESSION['username'])) {
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='pillows.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
-                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a9/40/ba/20190228-081424-largejpg.jpg?w=500&h=400&s=1" alt="">
-                <h4>Hotel Noir</h4>
-                <p style="text-align: left;">ที่พักเชียงใหม่ ได้ฟีลเหมือนอยู่นิวยอร์ก ต้องลองมานอนที่ Hotel Noir ใน ซอยนิมมาน 5 
-                    ที่นี่เป็นที่พักสไตล์ตึกเก่าแบบนิวยอร์ก การตกแต่งเน้นอิฐแดงกับปูนเปลือย โชว์ผิววัสดุแบบดิบๆ แต่ลงตัว มีเสน่ห์สุดๆ
-                     มีพื้นที่สีเขียวให้ความร่มรื่นเยอะมาก แถมยังมีจักรยานให้ยืมปั่นฟรีๆ ปั่นเล่นรอบๆ เมืองได้เลย ถือเป็นที่พักที่ทำเลดีมากๆ เพราะอยู่ในนิมมานแบบใจกลางเมืองจริงๆ เดินออกมาปุ๊บก็เจอร้านเก๋ๆ เพียบ
+                <img src="https://cms.dmpcdn.com/travel/2025/07/15/865c4960-6148-11f0-a535-d7cf63ed9a64_webp_original.webp" alt="">
+                <h4>Mercure Chiang Mai Hotel</h4>
+                <p style="text-align: left;">โรงแรมเมอร์เคียว เชียงใหม่ นำเสนอบรรยากาศที่ผสมผสานความสะดวกสบายสมัยใหม่กับการต้อนรับแบบล้านนาแท้ ตั้งอยู่ใจกลางเชียงใหม่ โรงแรมของเรามีห้องพักกว้างขวาง สิ่งอำนวยความสะดวกที่ครบครัน 
+                    และบรรยากาศที่อบอุ่นสำหรับทั้งนักท่องเที่ยวและนักธุรกิจ ค้นพบรสชาติท้องถิ่นที่ร้านอาหารของเรา 
+                    ผ่อนคลายข้างสระว่ายน้ำ หรือสำรวจแหล่งท่องเที่ยวใกล้เคียง
                 </p>
-                <li style="text-align: left;">ที่อยู่ : 5/8 ถนนนิมมานเหมินทร์ จังหวัดเชียงใหม่</li>
-                <li  style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/SYCx3QVSwqWDGP8x7" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/SYCx3QVSwqWDGP8x7</a></li>
-                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/HotelnoirChiangmaiNimman" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/HotelnoirChiangmaiNimman</a></li>
+                <li style="text-align: left;">ที่อยู่ : 183 ถนนช้างเผือก ตำบลศรีภูมิ อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
+                <li  style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/33kUQfpkUoD6JpbYA" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/33kUQfpkUoD6JpbYA</a></li>
+                <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/ChiangmaiMercure" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/ChiangmaiMercure</a></li>
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='hotelNOIR.php'">ดูเพิ่มเติม</button>
             </div>
         </div>
