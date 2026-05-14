@@ -69,7 +69,7 @@ if (file_exists($commentsFile)) {
             <a href="homeCH.php">สถานที่เที่ยว</a>
             <a href="hotelCH.php">ที่พัก</a>
             <a href="contactCH.php">ติดต่อ</a>
-            <a href="#">เกี่ยวกับเรา</a>
+            <a href="aboutCH.php">เกี่ยวกับเรา</a>
         </div>
         <div class="menu"><a href="logout.php" style="color:black;">ล็อคเอ้าท์</a></div>
     </div>
