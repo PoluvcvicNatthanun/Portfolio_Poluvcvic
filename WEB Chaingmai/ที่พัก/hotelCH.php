@@ -224,7 +224,7 @@ if (!isset($_SESSION['username'])) {
                 <li style="text-align: left;">ที่อยู่ : 183 ถนนช้างเผือก ตำบลศรีภูมิ อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
                 <li  style="text-align: left;">พิกัด : <a href="https://maps.app.goo.gl/33kUQfpkUoD6JpbYA" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/33kUQfpkUoD6JpbYA</a></li>
                 <li style="text-align: left;">เว็บไซต์ : <a href="https://www.facebook.com/ChiangmaiMercure" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">https://www.facebook.com/ChiangmaiMercure</a></li>
-                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='hotelNOIR.php'">ดูเพิ่มเติม</button>
+                <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='hotelmercure.php'">ดูเพิ่มเติม</button>
             </div>
         </div>
     </div>
