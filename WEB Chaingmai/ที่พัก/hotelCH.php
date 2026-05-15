@@ -182,7 +182,7 @@ if (!isset($_SESSION['username'])) {
                     เพราะบ้านหลังนี้มีทั้งหมด 3 ห้องนอน 3 ห้องน้ำ 2 ห้องนั่งเล่น และยังมีห้องครัวครบครัน โลเคชั่นดีมากๆ ใกล้ทั้งคาเฟ่ ร้านอาหาร และแหล่งท่องเที่ยวต่างๆ</p>
                 <li style="text-align: left;">ที่อยู่ : 99/54 หมู่ 1 ถนนห้วยแก้ว ตำบลช้างเผือก อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่</li>
                 <li  style="text-align: left;">พิกัด :<a href="https://maps.app.goo.gl/2vkxgwifKj2WUJby7" target="_blank"  rel="noopener" style="text-decoration: none; color:#007bff">https://maps.app.goo.gl/2vkxgwifKj2WUJby7</a></li>
-                <li style="text-align: left;">เว็บไซต์ : <a href="" target="_blank" rel="noopener" style="text-decoration: none; color:#007bff">-</a></li><br>
+                <li style="text-align: left;">เว็บไซต์ : -</li><br>
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='hoteljorn.php'">ดูเพิ่มเติม</button>
             </div>
         </div>
