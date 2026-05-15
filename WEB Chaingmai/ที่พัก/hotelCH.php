@@ -151,7 +151,7 @@ if (!isset($_SESSION['username'])) {
     <div class="bar1">
         <a href="homeCH.php" target="_blank" style="text-decoration: none;color: black;"><h1>สถานที่ท่องเที่ยวเชียงใหม่ 🗺️🌈</h1></a>
         <div class="menu">
-            <a href="homeCH.php">สถานที่เที่ยว</a>
+            <a href="../homeCH.php">สถานที่เที่ยว</a>
             <a href="hotelCH.php">ที่พัก</a>
             <a href="contactCH.php">ติดต่อ</a> 
             <a href="aboutCH.php">เกี่ยวกับเรา</a>
