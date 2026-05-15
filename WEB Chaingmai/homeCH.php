@@ -164,7 +164,7 @@ if (!isset($_SESSION['username'])) {
     <div class="content">
         <div class="product-section">
             <div class="product">
-                <img src="https://www.ananda.co.th/blog/thegenc/wp-content/uploads/2023/11/shutterstock_2091837973-1-825x550.jpg" alt="">
+                <img src="สถานที่เที่ยว/photo/ดอยอินทนนท์/ดอยอินทนนท์.jpg" alt="">
                 <h4>ดอยอินทนนท์</h4>
                 <p style="text-align: left;"> ดอยอินทนนท์ ถือเป็นภูเขาที่สูงที่จะในประเทศไทย ด้วยความสูงจากระดับน้ำทะเล 2,565 เมตร จึงทำให้มีสภาพอากาศที่เย็นตลอดทั้งปี</p>
                 <li style="text-align: left;">ที่อยู่ : ตำบลบ้านหลวง อำเภอจอมทอง จังหวัดเชียงใหม่</li>
