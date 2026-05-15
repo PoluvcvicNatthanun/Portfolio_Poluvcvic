@@ -64,7 +64,9 @@ if (file_exists($commentsFile)) {
 </head>
 <body>
     <div class="bar1">
-        <h2>สถานที่ท่องเที่ยวเชียงใหม่ 🗺️🌈</h2>
+        <a href="homeCH.php" style="text-decoration: none; color: black;">
+            <h2>สถานที่ท่องเที่ยวเชียงใหม่ 🗺️🌈</h2>
+        </a>
         <div class="menu">
             <a href="homeCH.php">สถานที่เที่ยว</a>
             <a href="#">ที่พัก</a>
