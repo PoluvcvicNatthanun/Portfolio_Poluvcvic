@@ -78,9 +78,9 @@ if (file_exists($commentsFile)) {
         <h1 class="title">ดอยอินทนนท์</h1>
         
         <div class="images">
-            <img src="https://image-tc.galaxy.tf/wijpeg-sxrfid5inslt46adwg0pwpho/intanon_standard.jpg?crop=112%2C0%2C1777%2C1333">
-            <img src="https://s.isanook.com/tr/0/ud/282/1412729/4-3_1.jpg?ip/crop/w670h402/q80/jpg">
-            <img src="https://www.khaosod.co.th/wpapp/uploads/2023/11/IMG_1572.jpeg">
+            <img src="photo/ดอยอินทนนท์/page1.jpg" alt="">
+            <img src="photo/ดอยอินทนนท์/page2.jpg" alt="">
+            <img src="photo/ดอยอินทนนท์/page3.jpg" alt="">
         </div>
 
         <div class="description">
