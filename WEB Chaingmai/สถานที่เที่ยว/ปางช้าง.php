@@ -75,9 +75,9 @@ if (file_exists($commentsFile)) {
         <h1 class="title">ปางช้างแม่สา</h1>
         
         <div class="images">
-            <img src="https://f.ptcdn.info/769/040/000/o3r7yudw87zITbiNZC3-o.jpg">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/60/a5/5d/maesa-elephant-camp-1.jpg">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/9c/9c/37/maesa-elephant-camp.jpg">
+            <img src="photo/ปางช้างแม่สา/page1.jpg">
+            <img src="photo/ปางช้างแม่สา/page2.jpg">
+            <img src="photo/ปางช้างแม่สา/page3.jpg">
         </div>
 
         <div class="description">
