@@ -75,9 +75,9 @@ if (file_exists($commentsFile)) {
         <h1 class="title">ประตูท่าแพ</h1>
         
         <div class="images">
-            <img src="https://cms.dmpcdn.com/travel/2020/08/27/10a8e2c0-e851-11ea-b44e-55f30e5b90d7_original.JPG">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiWy4mv856BdTrYIpZE0UXulULyArmtxlKIQ&s">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3kZ-mcgPEj6qD2m3RjzTg-I6nvjdT7vBMD7_ijXMAlHRa703gQS5pHk6xL5xbi_IqwBM&usqp=CAU">
+            <img src="photo/ประตูท่าแพ/page1.jpg">
+            <img src="photo/ประตูท่าแพ/page2.jpg">
+            <img src="photo/ประตูท่าแพ/page3.jpg">
         </div>
 
         <div class="description">
