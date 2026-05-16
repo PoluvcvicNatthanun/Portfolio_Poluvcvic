@@ -214,7 +214,7 @@ if (!isset($_SESSION['username'])) {
     <div class="content">
         <div class="product-section">
             <div class="product">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Wat_Phra_That_Doi_Suthep_%28I%29.jpg" alt="">
+                <img src="สถานที่เที่ยว/photo/วัดพระธาตุดอยสุเทพ/พระธาตุดอยสุเทพ.jpg" alt="">
                 <h4>วัดพระธาตุดอยสุเทพ</h4>
                 <p style="text-align: left;">วัดพระธาตุดอยสุเทพ นั้นเป็นปูชนียสถานคู่เมืองเชียงใหม่มาตั้งแต่โบราณ ตั้งอยู่บนยอดดอยสุเทพ  
                     นอกจากนี้ยังมี บันไดนาคเจ็ดเศียร ซึ่งทอดยาวขึ้นไป 300 ขั้น และ เจดีย์สีทองทรงเชียงแสน เป็นศิลปะล้านนาที่งดงาม 
