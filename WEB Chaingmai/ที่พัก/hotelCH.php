@@ -215,7 +215,7 @@ if (!isset($_SESSION['username'])) {
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='pillows.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
-                <img src="https://cms.dmpcdn.com/travel/2025/07/15/865c4960-6148-11f0-a535-d7cf63ed9a64_webp_original.webp" alt="">
+                <img src="photo/mercure/mercure.webp" alt="">
                 <h4>Mercure Chiang Mai Hotel</h4>
                 <p style="text-align: left;">โรงแรมเมอร์เคียว เชียงใหม่ นำเสนอบรรยากาศที่ผสมผสานความสะดวกสบายสมัยใหม่กับการต้อนรับแบบล้านนาแท้ ตั้งอยู่ใจกลางเชียงใหม่ โรงแรมของเรามีห้องพักกว้างขวาง สิ่งอำนวยความสะดวกที่ครบครัน 
                     และบรรยากาศที่อบอุ่นสำหรับทั้งนักท่องเที่ยวและนักธุรกิจ ค้นพบรสชาติท้องถิ่นที่ร้านอาหารของเรา 

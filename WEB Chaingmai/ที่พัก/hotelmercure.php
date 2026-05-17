@@ -78,9 +78,9 @@ if (file_exists($commentsFile)) {
         <h1 class="title">Mercure Chiang Mai Hotel</h1>
         
         <div class="images">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwGBKl-rZemqt8SlbCXZGc7F-07zzNqTPzg&s">
-            <img src="https://www.mercurechiangmai.com/wp-content/uploads/sites/126/2024/12/top-of-the-page-Slide-1.jpg">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtRIHTwQMt2B3wIEzHJmjxUEx_DlKUF2ZeQ&s">
+            <img src="photo/mercure/page1.jpg" alt="">
+            <img src="photo/mercure/page2.jpg" alt="">
+            <img src="photo/mercure/page3.jpg" alt="">
         </div>
 
         <div class="description">
