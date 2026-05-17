@@ -176,7 +176,7 @@ if (!isset($_SESSION['username'])) {
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='Hotelaono.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
-                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/551865398.jpg?k=79131d0f4bc888422a5db346ebdc1e25a6de2bd65c7f1828e88329dbab8be777&o=" alt="">
+                <img src="photo/jorn/jorn.jpg" alt="">
                 <h4>JORN Temporary House</h4>
                 <p style="text-align: left;">ถ้าอยากพักแบบ บ้านทั้งหลังกลางเมืองเชียงใหม่ ขอแนะนำ จร-JORN Temporary House บ้านพักสไตล์วินเทจที่รีโนเวตมาจากบ้านเก่า ใกล้มหาวิทยาลัยเชียงใหม่ เหมาะมากสำหรับคนที่มาพักเป็นกลุ่มหรือครอบครัว 
                     เพราะบ้านหลังนี้มีทั้งหมด 3 ห้องนอน 3 ห้องน้ำ 2 ห้องนั่งเล่น และยังมีห้องครัวครบครัน โลเคชั่นดีมากๆ ใกล้ทั้งคาเฟ่ ร้านอาหาร และแหล่งท่องเที่ยวต่างๆ</p>
