@@ -78,9 +78,9 @@ if (file_exists($commentsFile)) {
         <h1 class="title">Pillows Boutique Hotel</h1>
         
         <div class="images">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCG167SWkwxq-zT1QaC2v2NF6Jh7e4ENQSxw&s">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQvClNJf3rH3wUJ6cckyYQr49VfPh8RdsBA&s">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesRaeC9LuBHK022Hrtvw__zKN4lhueLfm9Q&s">
+            <img src="photo/pillows/page1.jpg" alt="">
+            <img src="photo/pillows/page2.jpg" alt="">
+            <img src="photo/pillows/page3.jpg" alt="">
         </div>
 
         <div class="description">

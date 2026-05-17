@@ -203,7 +203,7 @@ if (!isset($_SESSION['username'])) {
                 <button style="font-family: 'Kanit', sans-serif;" onclick="window.location.href='alexanimman.php'">ดูเพิ่มเติม</button>
             </div>
             <div class="product">
-                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/167266862.jpg?k=d637f221014eea40487e500b1bf2d7c567cd393edeab00c27bf801494fbade74&o=" alt="">
+                <img src="photo/pillows/pillows.jpg" alt="">
                 <h4>Pillows Boutique Hotel</h4>
                 <p style="text-align: left;">ที่พักเชียงใหม่ ฟีลมินิมอล เรียบง่าย แต่มีความน่ารักอบอุ่น ต้องที่นี่เลย Pillows Boutique Hotel ค่ะ ที่พักสวย สะอาด ตัวโรงแรมตกแต่งสไตล์มินิมอล
                     ห้องพักก็กว้างขวางสุดๆ มีทั้งเตียงเดี่ยวและเตียงคู่ให้เลือก ห้องสะอาด สบายตา ทำเลที่ตั้งก็ดีไม่แพ้กัน อยู่ในตัวเมืองเชียงใหม่ 
