@@ -78,9 +78,9 @@ if (file_exists($commentsFile)) {
         <h1 class="title">ALEXA Nimman Hostel</h1>
         
         <div class="images">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbrBtej2qD4VS_DWXOEzkSfLU6RUNLa5RGw&s">
-            <img src="https://static.wixstatic.com/media/a20849_c38c022179504523b4b16da2f24235c2~mv2.jpg/v1/fill/w_760,h_420,al_c/a20849_c38c022179504523b4b16da2f24235c2~mv2.jpg">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-qSsWxM5OBroiIxmWT_dJRb4laZ6NPiZ9Yw&s">
+            <img src="photo/alexa/alexa.jpg" alt="">
+            <img src="photo/alexa/page1.jpg" alt="">
+            <img src="photo/alexa/page2.jpg" alt="">
         </div>
 
         <div class="description">

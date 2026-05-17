@@ -191,7 +191,7 @@ if (!isset($_SESSION['username'])) {
     <div class="content">
         <div class="product-section">
             <div class="product">
-                <img src="https://static.wixstatic.com/media/a20849_c38c022179504523b4b16da2f24235c2~mv2.jpg/v1/fill/w_760,h_420,al_c/a20849_c38c022179504523b4b16da2f24235c2~mv2.jpg">
+                <img src="photo/alexa/alexa.jpg" alt="">
                 <h4>ALEXA Nimman Hostel</h4>
                 <p style="text-align: left;">ใครที่มองหา ที่พักเชียงใหม่ ทำเลดี ราคาน่ารักๆ ในตัวเมืองเชียงใหม่ ต้องลองมาพักที่ ALEXA Nimman Hostel 
                     ที่นี่ตั้งอยู่ในย่านนิมมานฯ แหล่งท่องเที่ยวสุดฮิต เดินเที่ยวสะดวก ใกล้ทั้ง คาเฟ่ ร้านอาหาร 
