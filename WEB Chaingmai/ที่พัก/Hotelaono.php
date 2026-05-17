@@ -78,9 +78,9 @@ if (file_exists($commentsFile)) {
         <h1 class="title">Hotel Aono</h1>
         
         <div class="images">
-            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/264935884.jpg?k=03a067dd8c67c4658990465fc5ea4aaa62c623290d6c93a944d53db0197ae227&o=">
-            <img src="https://images.trvl-media.com/lodging/48000000/47040000/47036000/47035950/157cb42d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4cUkCPJ0uAZGS9eDix-C8lMYGofNlHbhMLg&s">
+            <img src="photo/aono/Aono.jpg" alt="Hotel Aono">
+            <img src="photo/aono/page1.avif" alt="Hotel Aono">
+            <img src="photo/aono/page2.jpg" alt="Hotel Aono">
         </div>
 
         <div class="description">

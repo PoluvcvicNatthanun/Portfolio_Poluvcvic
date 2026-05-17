@@ -164,7 +164,7 @@ if (!isset($_SESSION['username'])) {
     <div class="content">
         <div class="product-section">
             <div class="product">
-                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/264935884.jpg?k=03a067dd8c67c4658990465fc5ea4aaa62c623290d6c93a944d53db0197ae227&o=" alt="">
+                <img src="photo/aono/Aono.jpg" alt="">
                 <h4>Hotel Aono</h4>
                 <p style="text-align: left;"> เป็นโรงแรมเล็กๆ สไตล์มินิมอล ตั้งอยู่ใจกลางเมืองเชียงใหม่ เดินทางสะดวก จะเที่ยวที่ไหนก็ง่าย การตกแต่งของที่นี่คือเรียบง่ายแต่น่ารักสุดๆ ใช้โทนสีขาวคลีนๆ 
                     ตัดกับขอบประตูหน้าต่างลายไม้ ให้ฟีลญี่ปุ่นเบาๆ มินิมอลกำลังดี เฟอร์นิเจอร์ก็เป็นโทนขาวกับไม้ ดูอบอุ่น สบายตา</p>
