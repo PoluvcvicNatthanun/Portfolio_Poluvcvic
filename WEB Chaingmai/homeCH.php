@@ -160,7 +160,7 @@ if (!isset($_SESSION['username'])) {
         <div class="menu"><a href="loginCH.php" style="color:black;">ล็อคเอ้าท์</a></div>
     </div>
     
-    <h2 style="margin-left: 25px;">หน้าแรก สถานที่ท่องเที่ยว</h2>
+    <h2 style="margin-left: 25px;">หน้าแรก :/h2>
     <div class="content">
         <div class="product-section">
             <div class="product">
