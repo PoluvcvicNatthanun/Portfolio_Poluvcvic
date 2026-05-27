@@ -7,13 +7,28 @@
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Web+Developer;UI%2FUX+Designer;PHP+%26+MySQL+Developer&center=true&width=500&height=45">
 </p>
 
-## 🇹🇭 เกี่ยวกับฉัน
-สวัสดีครับ ผมชื่อ ณัฐนนท์  
-กำลังศึกษาและฝึกฝนด้านการพัฒนาเว็บไซต์ และการออกแบบ UI/UX  
-สนใจเกี่ยวกับการเขียนโปรแกรม การพัฒนา Web Application และการออกแบบระบบ
+## 🇺🇸 About Me
+Hello! My name is Natthanun.  
+I am currently learning web development and UI/UX design.  
+I enjoy building websites, learning programming, and developing web applications.
 
-ปัจจุบันกำลังเรียนรู้:
-- HTML / CSS / JavaScript
-- PHP & MySQL
-- UI/UX Design
-- Git & GitHub
+---
+
+## 🚀 About Me
+🎓 Student Developer from Thailand  
+💡 Interested in Web Development & UI/UX Design  
+🌱 Currently learning PHP, MySQL, and GitHub  
+
+---
+
+## 🛠 Tech Stack
+
+<p align="center">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</p>
