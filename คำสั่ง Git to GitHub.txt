@@ -3,13 +3,15 @@
 git remote -v  #เช็คโฟลเดอร์ GitHub
 git remote remove origin #ลบที่อยู่เดิม
 git remote add origin https://github.com/USERNAME/REPO.git #เชื่อมที่อยู่ใหม่
+git remote add origin https://github.com/MoveMaNow/Portfolio_Poluvcvic.git #เชื่อมที่อยู่ใหม่
+git remote add origin https://github.com/MoveMaNow/WebminiBypoluvcvic.git #เชื่อมที่อยู่ใหม่
 
 #อัปโหลดขึ้น Github
 git add .
 git commit -m "update"
 git push -u origin main
 
-#ดึงไฟล์ Github
+#ดึงไฟล์จาก Github ลงมาใน VScode
 git pull origin main
 
 #ย้ายโฟลเดอร์โปรเจค ผ่าน CMD
