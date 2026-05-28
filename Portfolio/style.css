@@ -308,7 +308,7 @@
             font-size: 1.3em;
             font-weight: 600;
             margin-bottom: 12px;
-            color: var(--primary);
+            color: var(--secondary);
         }
 
         .countdown-timer {
