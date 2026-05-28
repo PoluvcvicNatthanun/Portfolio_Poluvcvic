@@ -4,7 +4,7 @@ git remote -v  #เช็คโฟลเดอร์ GitHub
 git remote remove origin #ลบที่อยู่เดิม
 git remote add origin https://github.com/USERNAME/REPO.git #เชื่อมที่อยู่ใหม่
 git remote add origin https://github.com/MoveMaNow/Portfolio_Poluvcvic.git #เชื่อมที่อยู่ใหม่
-git remote add origin https://github.com/MoveMaNow/WebminiBypoluvcvic.git #เชื่อมที่อยู่ใหม่
+git remote add origin https://github.com/MoveMaNow/WebSiet_Poluvcvic #เชื่อมที่อยู่ใหม่
 
 #อัปโหลดขึ้น Github
 git add .
