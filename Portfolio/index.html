@@ -1,23 +1,472 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio_Poluvcvic</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=IBM+Plex+Sans+Thai:wght@500&family=Kanit&display=swap" rel="stylesheet">
+    <title>Portfolio · Pepoluvcvic</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="box-header">
-        <h1 class="h1">About Me</h1>
-        <div class="box-aboutme">
-            Name : Natthanun Wongmai<br>
-            Nickname : Pepo<br>
-            Age : 19<br>
-        </div>
+
+
+    <video class="video-background" autoplay muted loop playsinline id="bgVideo">
+        <source src="videobg.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+
+    <audio id="bgMusic" loop preload="auto"></audio>
+
+    <button class="show-info-btn" id="showInfoBtn">
+        <i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว
+    </button>
+
+
+    <div class="party-overlay" id="partyOverlay"></div>
+    <div class="birthday-message" id="birthdayMessage">
+        <h2>🎉 สุขสันต์วันเกิด! 🎂</h2>
+        <p style="font-size: 1.5em; margin-top: 20px;">อายุครบ <span id="newAge">18</span> ปีแล้ว!</p>
+        <p style="margin-top: 20px;">🎈 🎊 🎁</p>
     </div>
-    
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img id="lightboxImg" src="" alt="Full size">
+    </div>
+
+    <div class="container">
+
+        <!-- ✅ โปรไฟล์ (แสดงตลอด) -->
+        <div class="profile-card">
+            <div class="profile-image">
+                <img src="pro.png" alt="Profile First"
+                    onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22200%22%20height%3D%22200%22%20viewBox%3D%220%200%20200%20200%22%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2290%22%20fill%3D%22%234361ee%22%2F%3E%3Ctext%20x%3D%22100%22%20y%3D%22120%22%20font-size%3D%2260%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E'">
+            </div>
+            <div class="profile-info">
+                <h1>Pepo <span style="font-weight:300;">Natthanun</span></h1>
+                <div class="title">
+                    <i class="fas fa-code"></i> Web Developer & Frontend & Backend
+                    <span style="margin-left: auto;"><i class="fas fa-map-marker-alt"></i> Chiang Mai, TH</span>
+                </div>
+                <div class="quick-info">
+                    <span><i class="fas fa-cake-candles"></i> 2 กรกฏาคม 2550</span>
+                    <span><i class="fas fa-venus-mars"></i> ชาย</span>
+                    <span><i class="fas fa-flag"></i> ไทย</span>
+                    <span><i class="fas fa-calendar-alt"></i> อายุ <span id="currentAge">17</span> ปี</span>
+                </div>
+
+                <!-- ✅ กล่องนับถอยหลังวันเกิด -->
+                <div class="countdown-box">
+                    <div class="countdown-title">
+                        <i class="fas fa-birthday-cake"></i> นับถอยหลังวันเกิดครั้งต่อไป
+                    </div>
+                    <div class="countdown-timer" id="countdown">
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="days">00</div>
+                            <div class="countdown-label">วัน</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="hours">00</div>
+                            <div class="countdown-label">ชั่วโมง</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="minutes">00</div>
+                            <div class="countdown-label">นาที</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="seconds">00</div>
+                            <div class="countdown-label">วินาที</div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 15px; font-weight: 500;" id="birthdayStatus"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ✅ เนื้อหาที่ซ่อนไว้ (จะแสดงเมื่อกดปุ่ม) -->
+        <div class="hidden-content" id="hiddenContent">
+
+            <!-- ข้อมูลส่วนตัว -->
+            <div class="section-card">
+                <h2><i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว</h2>
+                <ul class="personal-list">
+                    <li><i class="fas fa-user"></i> <strong>ชื่อ - สกุล:</strong> นายศุภวิชญ์ สุวรรณรัตน์ (First)</li>
+                    <li><i class="fas fa-tag"></i> <strong>ชื่อเล่น:</strong> เฟิร์ส</li>
+                    <li><i class="fas fa-calendar"></i> <strong>อายุ:</strong> <span id="personalAge">17</span> ปี</li>
+                    <li><i class="fas fa-birthday-cake"></i> <strong>วันเกิด:</strong> 17 เมษายน 2551</li>
+                    <li><i class="fas fa-flag"></i> <strong>สัญชาติ:</strong> ไทย</li>
+                </ul>
+            </div>
+
+            <!-- การศึกษา -->
+            <div class="section-card">
+                <h2><i class="fas fa-graduation-cap"></i> ประวัติการศึกษา</h2>
+                <ul class="edu-list">
+                    <li>
+                        <span class="edu-year"><i class="far fa-calendar-alt"></i> 2566 - 2568</span>
+                        <span>วิทยาลัยเทคนิคเชียงใหม่</span>
+                        <button class="map-btn" data-location="วิทยาลัยเทคนิคเชียงใหม่"
+                            onclick="confirmNavigation('https://www.google.com/search?q=วิทยาลัยเทคนิคเชียงใหม่')"><i
+                                class="fas fa-map-marked-alt"></i> แผนที่</button>
+                    </li>
+                    <li>
+                        <span class="edu-year"><i class="far fa-calendar-alt"></i> 2563 - 2566</span>
+                        <span>โรงเรียนมัธยมต้น เมตตาศึกษา</span>
+                        <button class="map-btn" data-location="โรงเรียนเมตตาศึกษา"
+                            onclick="confirmNavigation('https://www.google.com/search?q=โรงเรียนเมตตาศึกษา+เชียงใหม่')"><i
+                                class="fas fa-map-marked-alt"></i> แผนที่</button>
+                    </li>
+                    <li>
+                        <span class="edu-year"><i class="far fa-calendar-alt"></i> 2559 - 2562</span>
+                        <span>โรงเรียนประถม พุทธิโศภน</span>
+                        <button class="map-btn" data-location="โรงเรียนพุทธิโศภน"
+                            onclick="confirmNavigation('https://www.google.com/search?q=โรงเรียนพุทธิโศภน+เชียงใหม่')"><i
+                                class="fas fa-map-marked-alt"></i> แผนที่</button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ทักษะ -->
+            <div class="section-card">
+                <h2><i class="fas fa-code-branch"></i> ทักษะ & เทคโนโลยี</h2>
+                <div class="skills-grid">
+                    <div class="skill-box">
+                        <i class="fas fa-code"
+                            style="font-size: 1.8em; color: var(--primary); margin-bottom: 10px;"></i>
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS, JavaScript, Responsive Design</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend</h3>
+                        <p>PHP, Python (MicroPython), Node.js (Express)</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools</h3>
+                        <p>Git, GitHub, VS Code, Figma (พื้นฐาน)</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-language"></i>
+                        <h3>ภาษา</h3>
+                        <p>ไทย (Native) · อังกฤษ (สื่อสารได้)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ผลงาน -->
+            <div class="section-card">
+                <h2><i class="fas fa-briefcase"></i> ผลงาน & เว็บไซต์</h2>
+                <p><i class="fas fa-medal" style="color: #fbbf24;"></i> เข้าร่วมรายการ Coding Thailand (รอบประเทศ)</p>
+
+                <div class="work-gallery">
+                    <div class="work-card" onclick="openLightbox('work.png')">
+                        <img src="work.png" alt="Project work"
+                            onerror="this.style.backgroundColor='#b8c9e0'; this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22200%22%3E%3Crect%20width%3D%22400%22%20height%3D%22200%22%20fill%3D%22%234361ee%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22110%22%20font-size%3D%2224%22%20fill%3D%22white%22%20text-anchor%3D%22middle%22%3EWork%20Preview%3C%2Ftext%3E%3C%2Fsvg%3E'">
+                        <div class="work-content">
+                            <h4>✨ ตัวอย่างผลงาน</h4>
+                            <p>คลิกที่ภาพเพื่อดูแบบเต็มจอ</p>
+                            <i class="fas fa-search-plus" style="color: var(--primary);"></i>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <div
+                            style="background: linear-gradient(145deg, #4361ee, #7209b7); aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5em;">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="work-content">
+                            <h4>นาฬิกา Web App</h4>
+                            <p>แสดงเวลาแบบเรียลไทม์</p>
+                            <a href="https://firstspw.github.io/Clock.github.io/" target="_blank" class="btn"
+                                style="padding: 8px 18px;"><i class="fas fa-external-link-alt"></i> ดูโปรเจกต์</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <a href="https://firstspw.github.io/Clock.github.io/" target="_blank" class="btn"><i
+                            class="fas fa-clock"></i> เว็บนาฬิกา</a>
+                    <a href="https://ffangyy.github.io/" target="_blank" class="btn"><i
+                            class="fas fa-user-astronaut"></i> เว็บส่วนตัว</a>
+                </div>
+            </div>
+
+            <!-- ติดต่อ -->
+            <div class="section-card">
+                <h2><i class="fas fa-address-card"></i> ช่องทางติดต่อ</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>โทร</h3>
+                        <p>097-220-1312</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>อีเมล</h3>
+                        <a href="#" onclick="openGmail(); return false;"
+                            style="color: var(--primary);">first172550@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-home"></i>
+                        <h3>ที่อยู่</h3>
+                        <p>49 หมู่ 4 ต.สันผักหวาน อ.หางดง จ.เชียงใหม่ 50230</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Suphawit Suwannarat — สร้างด้วย <i class="fas fa-heart" style="color: #f72585;"></i></p>
+        </footer>
+    </div>
+
+    <script>
+        // ==========================================
+        // ระบบเสียง (ปรับปรุงใหม่ให้ใช้งานได้แน่นอน)
+        // ==========================================
+        let bgMusic = null;
+        let isMusicPlaying = false;
+        let musicLoaded = false;
+
+        // เริ่มต้นระบบเสียง
+        function initAudio() {
+            bgMusic = document.getElementById('bgMusic');
+
+            // ตั้งค่าไฟล์เสียง
+            const source = document.createElement('source');
+            source.src = 'music.mp3';
+            source.type = 'audio/mpeg';
+            bgMusic.appendChild(source);
+
+            // ตั้งค่าระดับเสียงเริ่มต้น
+            bgMusic.volume = 0.05;
+
+            // โหลดไฟล์เสียง
+            bgMusic.load();
+            musicLoaded = true;
+
+            console.log('✅ ระบบเสียงพร้อมทำงาน');
+        }
+
+        // ฟังก์ชันเล่นเพลง
+        function playMusic() {
+            if (!bgMusic) {
+                initAudio();
+            }
+
+            bgMusic.play().then(() => {
+                isMusicPlaying = true;
+                updateMusicButton();
+                console.log('▶️ กำลังเล่นเพลง');
+            }).catch(err => {
+                console.log('⚠️ ไม่สามารถเล่นเพลงได้: ', err);
+                // ลองใหม่อีกครั้งหลังจากผู้ใช้คลิก
+                setTimeout(() => {
+                    bgMusic.play().then(() => {
+                        isMusicPlaying = true;
+                        updateMusicButton();
+                    }).catch(e => console.log('ยังไม่สามารถเล่นได้'));
+                }, 100);
+            });
+        }
+
+        // ฟังก์ชันหยุดเพลง
+        function pauseMusic() {
+            if (bgMusic) {
+                bgMusic.pause();
+                isMusicPlaying = false;
+                updateMusicButton();
+                console.log('⏸️ หยุดเล่นเพลง');
+            }
+        }
+
+        // สลับเล่น/หยุด
+        function toggleMusic() {
+            if (!musicLoaded) {
+                initAudio();
+            }
+
+            if (isMusicPlaying) {
+                pauseMusic();
+            } else {
+                playMusic();
+            }
+        }
+
+        // ปรับระดับเสียง
+        function changeVolume(value) {
+            const vol = value / 100;
+            if (bgMusic) {
+                bgMusic.volume = vol;
+            }
+            document.getElementById('volumeValue').textContent = value + '%';
+            console.log('🔊 ระดับเสียง: ' + value + '%');
+        }
+
+        // อัปเดตปุ่มควบคุม
+        function updateMusicButton() {
+            const btn = document.getElementById('musicToggle');
+            if (isMusicPlaying) {
+                btn.innerHTML = '<i class="fas fa-pause"></i>';
+            } else {
+                btn.innerHTML = '<i class="fas fa-play"></i>';
+            }
+        }
+
+        // เริ่มต้นระบบเสียงเมื่อโหลดหน้าเว็บ
+        window.addEventListener('DOMContentLoaded', function () {
+            initAudio();
+        });
+
+        // คลิกที่ใดก็ได้เพื่อเริ่มเล่นเพลง (แก้ปัญหา autoplay)
+        document.body.addEventListener('click', function () {
+            if (!isMusicPlaying && musicLoaded) {
+                playMusic();
+            }
+        }, { once: false });
+
+        // ==========================================
+        // ระบบคำนวณอายุและนับถอยหลัง
+        // ==========================================
+        const BIRTHDAY = { day: 17, month: 4, year: 2551 };
+
+        function calculateAge() {
+            const now = new Date();
+            const birthDate = new Date(BIRTHDAY.year - 543, BIRTHDAY.month - 1, BIRTHDAY.day);
+            const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDiff = today.getMonth() - birthDate.getMonth();
+
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+
+            let nextBirthday = new Date(now.getFullYear(), BIRTHDAY.month - 1, BIRTHDAY.day);
+            if (nextBirthday < now) {
+                nextBirthday = new Date(now.getFullYear() + 1, BIRTHDAY.month - 1, BIRTHDAY.day);
+            }
+
+            const diffTime = nextBirthday - now;
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            const diffHours = Math.floor((diffTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const diffMinutes = Math.floor((diffTime % (1000 * 60 * 60)) / (1000 * 60));
+            const diffSeconds = Math.floor((diffTime % (1000 * 60)) / 1000);
+
+            return { age, diffDays, diffHours, diffMinutes, diffSeconds, nextBirthday };
+        }
+
+        function isBirthdayToday() {
+            const now = new Date();
+            return now.getDate() === BIRTHDAY.day && (now.getMonth() + 1) === BIRTHDAY.month;
+        }
+
+        let partyActive = false;
+
+        function updateDisplay() {
+            const { age, diffDays, diffHours, diffMinutes, diffSeconds } = calculateAge();
+
+            document.getElementById('currentAge').textContent = age;
+            const personalAgeEl = document.getElementById('personalAge');
+            if (personalAgeEl) personalAgeEl.textContent = age;
+
+            document.getElementById('days').textContent = String(diffDays).padStart(2, '0');
+            document.getElementById('hours').textContent = String(diffHours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(diffMinutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(diffSeconds).padStart(2, '0');
+
+            const statusEl = document.getElementById('birthdayStatus');
+            const birthday = isBirthdayToday();
+
+            if (birthday) {
+                statusEl.innerHTML = '🎂 วันนี้เป็นวันเกิด! สุขสันต์วันเกิด! 🎉';
+                if (!partyActive) {
+                    startParty(age);
+                    partyActive = true;
+                }
+            } else {
+                statusEl.innerHTML = `🎈 อีก ${diffDays} วัน ${diffHours} ชั่วโมง ก็จะถึงวันเกิดปีที่ ${age + 1} แล้ว!`;
+                if (partyActive) {
+                    stopParty();
+                    partyActive = false;
+                }
+            }
+        }
+
+        function startParty(age) {
+            document.body.classList.add('party-active');
+            document.getElementById('newAge').textContent = age;
+
+            const overlay = document.getElementById('partyOverlay');
+            overlay.innerHTML = '';
+            for (let i = 0; i < 50; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.left = Math.random() * 100 + '%';
+                confetti.style.animationDelay = Math.random() * 2 + 's';
+                confetti.style.background = `hsl(${Math.random() * 360}, 80%, 60%)`;
+                overlay.appendChild(confetti);
+            }
+        }
+
+        function stopParty() {
+            document.body.classList.remove('party-active');
+            document.getElementById('partyOverlay').innerHTML = '';
+        }
+
+        // ==========================================
+        // ฟังก์ชันอื่นๆ
+        // ==========================================
+        function openLightbox(src) {
+            document.getElementById('lightboxImg').src = src;
+            document.getElementById('lightbox').classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+
+        function confirmNavigation(url) {
+            const btn = event.target.closest('.map-btn');
+            const loc = btn ? btn.getAttribute('data-location') : 'สถานที่';
+            if (confirm(`🔍 ค้นหาข้อมูล "${loc}" บน Google Maps?`)) {
+                window.open(url, '_blank');
+            }
+        }
+
+        function openGmail() {
+            window.open('https://mail.google.com/mail/?view=cm&fs=1&to=first172550@gmail.com&su=ติดต่อจาก Portfolio', '_blank');
+        }
+
+        // แสดง/ซ่อนเนื้อหา
+        const showInfoBtn = document.getElementById('showInfoBtn');
+        const hiddenContent = document.getElementById('hiddenContent');
+
+        showInfoBtn.addEventListener('click', () => {
+            hiddenContent.classList.toggle('show');
+            if (hiddenContent.classList.contains('show')) {
+                showInfoBtn.innerHTML = '<i class="fas fa-times-circle"></i> ปิดข้อมูล';
+            } else {
+                showInfoBtn.innerHTML = '<i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว';
+            }
+        });
+
+        // อัปเดตทุกวินาที
+        updateDisplay();
+        setInterval(updateDisplay, 1000);
+
+        // กด ESC เพื่อปิด lightbox
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,28 @@
+คำสั่ง Git to GitHub
+
+git remote -v  #เช็คโฟลเดอร์ GitHub
+git remote remove origin #ลบที่อยู่เดิม
+git remote add origin https://github.com/USERNAME/REPO.git #เชื่อมที่อยู่ใหม่
+
+#อัปโหลดขึ้น Github
+git add .
+git commit -m "update"
+git push -u origin main
+
+#ดึงไฟล์ Github
+git pull origin main
+
+#ย้ายโฟลเดอร์โปรเจค ผ่าน CMD
+move "D:\PWS 1" "D:\Portfolio"
+
+# Clone โปรเจค GitHub
+git clone https://github.com/USERNAME/REPO.git
+
+#เช็คสถานนะไฟล์
+git status
+
+#อัปโหลดเฉพาะไฟล์
+git add index.html
+ตามด้วย 
+git commit -m "add index"
+git push
