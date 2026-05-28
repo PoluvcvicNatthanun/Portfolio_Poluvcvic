@@ -731,28 +731,10 @@
 
 <body>
 
-    <!-- ✅ วิดีโอพื้นหลัง (ปิดเสียง) -->
     <video class="video-background" autoplay muted loop playsinline id="bgVideo">
         <source src="video.mp4" type="video/mp4">
     </video>
     <div class="video-overlay"></div>
-
-    <!-- ✅ เสียงเพลงพื้นหลัง -->
-    <audio id="bgMusic" loop preload="auto"></audio>
-
-    <!-- ✅ ปุ่มควบคุมเสียง -->
-    <div class="audio-control">
-        <button id="musicToggle" onclick="toggleMusic()">
-            <i class="fas fa-play"></i>
-        </button>
-        <input type="range" id="volumeSlider" min="0" max="100" value="5" oninput="changeVolume(this.value)">
-        <span id="volumeValue">5%</span>
-    </div>
-
-    <!-- ✅ ปุ่มแสดงข้อมูล -->
-    <button class="show-info-btn" id="showInfoBtn">
-        <i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว
-    </button>
 
     <!-- ✅ ปาร์ตี้เอฟเฟกต์ -->
     <div class="party-overlay" id="partyOverlay"></div>
