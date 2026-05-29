@@ -2,7 +2,7 @@
 <h3 align="center">💻 Web Developer | UI/UX Designer | Student Developer from Thailand 🇹🇭</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Web+Developer;UI%2FUX+Designer;Flutter+Learner;PHP+%26+MySQL+Developer&center=true&width=500&height=45">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Web+Developer;UI%2FUX+Designer;PHP+%26+MySQL+Developer&center=true&width=500&height=45">
 </p>
 
 ---
