@@ -57,60 +57,6 @@
             z-index: 1;
         }
 
-        /* ✅ ปุ่มควบคุมเสียง - ปรับปรุงใหม่ */
-        .audio-control {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 12px 20px;
-            border-radius: 50px;
-            box-shadow: var(--shadow);
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            z-index: 1000;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-        }
-
-        .audio-control button {
-            background: var(--primary);
-            color: white;
-            border: none;
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: 0.3s;
-            font-size: 1.2em;
-        }
-
-        .audio-control button:hover {
-            background: var(--accent);
-            transform: scale(1.1);
-        }
-
-        .audio-control button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .audio-control input {
-            width: 120px;
-            accent-color: var(--primary);
-            cursor: pointer;
-        }
-
-        .audio-control span {
-            min-width: 45px;
-            font-weight: 600;
-            color: var(--dark);
-        }
-
         /* ✅ ปุ่มแสดงข้อมูล */
         .show-info-btn {
             position: fixed;
@@ -173,7 +119,7 @@
             -webkit-backdrop-filter: blur(20px);
             /* รองรับ Safari */
             border-radius: var(--card-radius);
-            padding: 40px 36px;
+            padding: 40px 20px;
             margin-bottom: 32px;
             box-shadow: var(--shadow);
             display: flex;
