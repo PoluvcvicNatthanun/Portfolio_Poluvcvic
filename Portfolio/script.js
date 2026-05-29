@@ -114,6 +114,18 @@ function updateDisplay() {
     }
 }
 
+    const showInfoBtn = document.getElementById('showInfoBtn');
+    const hiddenContent = document.getElementById('hiddenContent');
+
+        showInfoBtn.addEventListener('click', () => {
+            hiddenContent.classList.toggle('show');
+            if (hiddenContent.classList.contains('show')) {
+                showInfoBtn.innerHTML = '<i class="fas fa-times-circle"></i> ปิดข้อมูล';
+            } else {
+                showInfoBtn.innerHTML = '<i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว';
+            }
+        });
+
 updateDisplay();
 
 setInterval(updateDisplay, 1000);
