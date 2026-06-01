@@ -125,7 +125,15 @@ function updateDisplay() {
                 showInfoBtn.innerHTML = '<i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว';
             }
         });
+        
+        function openLightbox(src) {
+            document.getElementById('lightboxImg').src = src;
+            document.getElementById('lightbox').classList.add('active');
+        }
 
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
 updateDisplay();
 
 setInterval(updateDisplay, 1000);
