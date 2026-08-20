@@ -489,3 +489,10 @@ footer {
         width: 100%;
     }
 }
+*:not(i):not(svg):not([class*="fa-"]) {
+    font-family: 'Prompt', sans-serif !important;
+}
+
+i, .fas, .far, .fab {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+}
