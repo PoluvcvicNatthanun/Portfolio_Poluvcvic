@@ -137,3 +137,10 @@ function updateDisplay() {
 updateDisplay();
 
 setInterval(updateDisplay, 1000);
+
+function confirmNavigation(url) {
+    const result = confirm("คุณต้องการเปิดไปยัง Google Maps หรือไม่?");
+    if (result) {
+        window.open(url, '_blank');
+    }
+}
