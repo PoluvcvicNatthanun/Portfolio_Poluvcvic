@@ -496,3 +496,16 @@ footer {
 i, .fas, .far, .fab {
     font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
 }
+
+.reveal-item {
+    opacity: 0;
+    transform: translateY(45px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), 
+                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+}
+
+.reveal-item.active {
+    opacity: 1;
+    transform: translateY(0);
+}

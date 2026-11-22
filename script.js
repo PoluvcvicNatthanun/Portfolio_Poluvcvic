@@ -1,142 +1,130 @@
 const BIRTHDAY = {
-
     day: 2,
     month: 7,
     year: 2550
-
 };
 
 function calculateBirthday() {
-
     const now = new Date();
-
     const birthDate = new Date(
         BIRTHDAY.year - 543,
         BIRTHDAY.month - 1,
         BIRTHDAY.day
     );
 
-    let age =
-        now.getFullYear() -
-        birthDate.getFullYear();
+    let age = now.getFullYear() - birthDate.getFullYear();
 
     const hasBirthdayThisYear =
-
-        now.getMonth() > birthDate.getMonth()
-        ||
-        (
-            now.getMonth() === birthDate.getMonth()
-            &&
-            now.getDate() >= birthDate.getDate()
-        );
+        now.getMonth() > birthDate.getMonth() ||
+        (now.getMonth() === birthDate.getMonth() &&
+            now.getDate() >= birthDate.getDate());
 
     if (!hasBirthdayThisYear) {
         age--;
     }
 
     let nextBirthday = new Date(
-
-        now.getFullYear(),BIRTHDAY.month - 1, BIRTHDAY.day,0,0,0
+        now.getFullYear(), BIRTHDAY.month - 1, BIRTHDAY.day, 0, 0, 0
     );
 
     if (now > nextBirthday) {
-
-        nextBirthday = new Date(now.getFullYear() + 1, BIRTHDAY.month - 1, BIRTHDAY.day,0,0,0
+        nextBirthday = new Date(
+            now.getFullYear() + 1, BIRTHDAY.month - 1, BIRTHDAY.day, 0, 0, 0
         );
     }
 
     const diff = nextBirthday - now;
 
-    const days = Math.floor(
-        diff / (1000 * 60 * 60 * 24)
-    );
-    const hours = Math.floor(
-        (diff % (1000 * 60 * 60 * 24))/(1000 * 60 * 60)
-    );
-    const minutes = Math.floor(
-        (diff % (1000 * 60 * 60))/(1000 * 60)
-    );
-    const seconds = Math.floor(
-        (diff % (1000 * 60))/ 1000
-    );
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    return {age,days,hours,minutes,seconds
-    };
+    return { age, days, hours, minutes, seconds };
 }
 
 function isBirthdayToday() {
-
     const now = new Date();
-
     return (
-        now.getDate() === BIRTHDAY.day
-        &&
+        now.getDate() === BIRTHDAY.day &&
         (now.getMonth() + 1) === BIRTHDAY.month
     );
 }
 
 function updateDisplay() {
+    const { age, days, hours, minutes, seconds } = calculateBirthday();
 
-    const {age,days,hours,minutes,seconds
+    document.getElementById("days").textContent = String(days).padStart(2, "0");
+    document.getElementById("hours").textContent = String(hours).padStart(2, "0");
+    document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
+    document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
 
-    } = calculateBirthday();
-
-    document.getElementById("days").textContent =
-        String(days).padStart(2, "0");
-    document.getElementById("hours").textContent =
-        String(hours).padStart(2, "0");
-    document.getElementById("minutes").textContent =
-        String(minutes).padStart(2, "0");
-    document.getElementById("seconds").textContent =
-        String(seconds).padStart(2, "0");
-
-    const statusEl =
-        document.getElementById("birthdayStatus");
+    const statusEl = document.getElementById("birthdayStatus");
 
     if (isBirthdayToday()) {
-
-        statusEl.innerHTML =
-            `🎂 สุขสันต์วันเกิด อายุ ${age} ปี 🎉`;
-
+        statusEl.innerHTML = `🎂 สุขสันต์วันเกิด อายุ ${age} ปี 🎉`;
     } else {
-
         statusEl.innerHTML =
-
-            `🎈 อีก ${days} วัน `
-            +
-            `${hours} ชั่วโมง `
-            +
-            `${minutes} นาที `
-            +
-            `${seconds} วินาที `
-            +
+            `🎈 อีก ${days} วัน ` +
+            `${hours} ชั่วโมง ` +
+            `${minutes} นาที ` +
+            `${seconds} วินาที ` +
             `จะถึงวันเกิดปีที่ ${age + 1}`;
     }
 }
 
-    const showInfoBtn = document.getElementById('showInfoBtn');
-    const hiddenContent = document.getElementById('hiddenContent');
+// =========================================
+// ระบบเปิด-ปิดข้อมูล และ Scroll Reveal Effect
+// =========================================
+const showInfoBtn = document.getElementById('showInfoBtn');
+const hiddenContent = document.getElementById('hiddenContent');
 
-        showInfoBtn.addEventListener('click', () => {
-            hiddenContent.classList.toggle('show');
-            if (hiddenContent.classList.contains('show')) {
-                showInfoBtn.innerHTML = '<i class="fas fa-times-circle"></i> ปิดข้อมูล';
-            } else {
-                showInfoBtn.innerHTML = '<i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว';
-            }
-        });
-        
-        function openLightbox(src) {
-            document.getElementById('lightboxImg').src = src;
-            document.getElementById('lightbox').classList.add('active');
+// เลือกกล่องข้อความและการ์ดทั้งหมดในส่วนข้อมูลที่ซ่อนไว้
+const revealTargets = document.querySelectorAll(
+    '#hiddenContent .section-card, #hiddenContent .skill-box, #hiddenContent .work-card'
+);
+
+// กำหนดสถานะซ่อนเริ่มต้นให้ทุกกล่อง
+revealTargets.forEach((el) => el.classList.add('reveal-item'));
+
+// ตัวตรวจจับการเลื่อนเมาส์ (Intersection Observer)
+const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        } else {
+            entry.target.classList.remove('active');
         }
+    });
+}, {
+    threshold: 0.12, // เริ่มโผล่เมื่อเลื่อนมาเห็นกล่อง 12%
+    rootMargin: '0px 0px -60px 0px' // หน่วงระยะขอบล่าง 60px เพื่อให้ต้องเลื่อนเมาส์ลงก่อนถึงจะโผล่
+});
 
-        function closeLightbox() {
-            document.getElementById('lightbox').classList.remove('active');
-        }
-updateDisplay();
+revealTargets.forEach((el) => revealObserver.observe(el));
 
-setInterval(updateDisplay, 1000);
+showInfoBtn.addEventListener('click', () => {
+    hiddenContent.classList.toggle('show');
+    if (hiddenContent.classList.contains('show')) {
+        showInfoBtn.innerHTML = '<i class="fas fa-times-circle"></i> ปิดข้อมูล';
+    } else {
+        showInfoBtn.innerHTML = '<i class="fas fa-user-circle"></i> ข้อมูลส่วนตัว';
+        // รีเซ็ตให้กล่องกลับไปซ่อนใหม่เมื่อกดปิดข้อมูล
+        revealTargets.forEach((el) => el.classList.remove('active'));
+    }
+});
+
+// =========================================
+// Lightbox & Google Maps
+// =========================================
+function openLightbox(src) {
+    document.getElementById('lightboxImg').src = src;
+    document.getElementById('lightbox').classList.add('active');
+}
+
+function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
+}
 
 function confirmNavigation(url) {
     const result = confirm("คุณต้องการเปิดไปยัง Google Maps หรือไม่?");
@@ -144,3 +132,6 @@ function confirmNavigation(url) {
         window.open(url, '_blank');
     }
 }
+
+updateDisplay();
+setInterval(updateDisplay, 1000);
